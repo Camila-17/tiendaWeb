@@ -1,0 +1,56 @@
+.fondo{
+    background-color:#EEEEEE;
+}
+
+.container-fluid .letra{
+    font-family: Suez One;
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: Zilla Slab;
+    font-style: italic;
+    
+}
+
+
+.one1 img{
+    margin: 0 auto ;
+    width: 328px;
+    height: 500px;
+    border: 2px black solid;
+    margin-right: auto;
+    margin-left: 5px;
+    
+}
+
+.one2 img{
+    margin: 0 auto ;
+    width: 329px;
+    height: 500px;
+    border: 2px black solid;
+    margin-left:auto;
+    
+}
+
+.one3 img{
+    margin: 0 auto ;
+    width: 320px;
+    height: 500px;
+    border: 2px black solid;
+    margin-right: auto;
+    
+}
+
+.one4 img{
+    margin: 0 auto ;
+    width: 320px;
+    height: 500px;
+    border: 2px black solid;
+    margin-right:10px;
+    margin-top: auto;
+
+    
+}
+
+
