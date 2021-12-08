@@ -1,56 +1,124 @@
 .fondo{
-    background-color:#EEEEEE;
+    background-color:#cfcfcf
+
+;
 }
 
 .container-fluid .letra{
     font-family: Suez One;
 }
 
-.titulo{
-    font-size: 45px;
-    font-family: Zilla Slab;
-    font-style: italic;
+ul li:hover {
+    background-color: #e0e0e0;
+    border-radius:10px;
+    padding-left: 10px;
     
 }
 
-
-.one1 img{
-    margin: 0 auto ;
-    width: 328px;
-    height: 500px;
-    border: 2px black solid;
-    margin-right: auto;
-    margin-left: 5px;
+.contenedor1{
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-left: 80px;
+    height: 585px;
     
 }
 
-.one2 img{
-    margin: 0 auto ;
-    width: 329px;
-    height: 500px;
-    border: 2px black solid;
-    margin-left:auto;
+.contenedor1 img{
+    border-radius:10px;
+    margin-bottom: 50px;
+    
     
 }
 
-.one3 img{
-    margin: 0 auto ;
-    width: 320px;
-    height: 500px;
-    border: 2px black solid;
-    margin-right: auto;
+.container-fluid .imagenUno{
+    display:inline;
+    width: 550px;
+    height: 575px;
+    margin-left: auto;
+    border-radius: 15px;
     
 }
 
-.one4 img{
-    margin: 0 auto ;
-    width: 320px;
-    height: 500px;
-    border: 2px black solid;
-    margin-right:10px;
-    margin-top: auto;
+.container-fluid .agua{
+    border-radius: 15px;
+    margin: auto;
+}
+
+.container-fluid .aire{
+    border-radius: 15px;
+    margin-left: auto;
+    
+}
+
+.container-fluid .imagenDos{
+    display:inline;
+    width: 550px;
+    height: 570px;
+    margin-left: auto;
+    border-radius: 15px;
+    margin-top: -80px;
 
     
 }
 
+.container-fluid .tierra{
+    border-radius: 15px;
+    margin-top: -80px;
+    
+}
 
+.container-fluid .fuego{
+    border-radius: 15px;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.container-fluid .muevete{
+    font-size: 25px;
+}
+
+div footer{
+    background-color:#BDBDBD;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container-fluid .parrafo{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    text-align:left;
+}
+
+.cont2 p{
+    font-size: 25px;
+    
+}
+
+footer .git{
+    position: relative;
+    width: 40px;
+    left: 150px;
+    display: block;
+    bottom: 12px;
+}
+
+footer .oli{
+    position: relative;
+    width: 40px;
+    left: 150px;
+    display: block;
+    bottom: 10px;
+}
+
+footer img:hover{
+    background-color:lightgrey ;
+    opacity:0.8;
+    border-radius:60px;
+}
+
+.container-fluid .sumilaF{
+    width: 50px;
+    margin-left: 200px;
+}

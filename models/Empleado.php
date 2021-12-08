@@ -10,7 +10,7 @@ class Empleado{
     public $descripcion;
     public $foto;
 
-    //METODO ESPECIAL CONTRUCTOR 
+
     public function __construct($nombresFormulario,$apellidosFormulario,$emailFormulario,$edadFormulario,$descripcionFormulario,$fotoFormulario){
         
         $this->nombres=$nombresFormulario;
@@ -20,16 +20,16 @@ class Empleado{
         $this->descripcion=$descripcionFormulario;
         $this->foto=$fotoFormulario; 
     }
-    //ACCIONES = FUNCIONES = METODOS
+
     public function registrar(){
-        //Las bases de datos hablan sql 
+    
         $consultaSQL="INSERT INTO empleados( nombres, apellidos, email, edad, descripcion, foto) 
         VALUES ('$this->nombres','$this->apellidos',' $this->email',' $this->edad=',' $this->descripcion','$this->foto')";
 
-        return $consultaSQL; //Es el controlador el que habla con las vistas y modelos
+        return $consultaSQL; 
     }
 
-    //crud create reed update delete
+    
 
     public function buscar(){
         $consultaSQL=" SELECT * FROM empleados";
@@ -42,7 +42,7 @@ class Empleado{
     }
 
     public function editar($id){
-        $consultaSQL="UPDATE empleados SET edad=' $this->edad',descripcion=' $this->descripcion',foto='$this->foto' WHERE id='$id'";
+        $consultaSQL="UPDATE empleados SET email=' $this->email' WHERE id='$id'";
         return $consultaSQL;
     }
 }

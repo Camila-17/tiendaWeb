@@ -1,0 +1,32 @@
+.container-fluid .letra{
+    font-family: Suez One;
+}
+
+.fondoinput  {
+    background-color:#BDBDBD !important;
+
+}
+
+.fondo{
+    background-color:#EEEEEE;
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+    border-radius:10px;
+    padding-left: 10px;
+}
+
+.botonCenter button{
+    font-weight:bold;
+    width:490px;
+    height:45px;
+}
+
+.letrasMenu{
+    font-weight:bold;
+}
+
+.registro{
+    font-family: Suez One;
+}

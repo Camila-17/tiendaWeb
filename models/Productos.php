@@ -1,6 +1,7 @@
 <?php
 
     class Productos{
+
         public $nombresProducto;
         public $marcaProducto;
         public $precioProducto;
@@ -30,12 +31,12 @@
 
         public function eliminarProducto($idProducto){
             $consultaProductoSQL="DELETE FROM producto WHERE idProducto='$idProducto'";
-
             return $consultaProductoSQL;
         }
 
         public function editarProducto($idProducto){
-            $consultaProductoSQL="UPDATE producto SET nombresProducto='$this->nombreProducto',precioProducto='$this->precioProducto',fotoProducto='$this->fotoProducto',descripcionProducto=' $this->descripcionProducto' WHERE idProducto='$idProducto'";
+            $consultaProductoSQL="UPDATE producto SET precioProducto='$this->precioProducto' WHERE idProducto='$idProducto'";
+            return $consultaProductoSQL;
         }
     }
 

@@ -1,0 +1,20 @@
+.fondo{
+    background-color:#EEEEEE;
+}
+
+.container-fluid .letra{
+    font-family: Suez One;
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: Zilla Slab;
+    font-style: italic;
+    
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+    border-radius:10px;
+    padding-left: 10px;
+}
